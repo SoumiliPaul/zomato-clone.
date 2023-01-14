@@ -1,0 +1,120 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 450px;
+    width: 100%;
+    background-image: url(https://image.shutterstock.com/image-photo/healthy-food-clean-eating-selection-260nw-722718082.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-white{
+    color: white;
+}
+
+.nav{
+    height:80px;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    display:flex;
+    align-items: center ;
+    /* y axis :centered */
+    justify-content:space-between;
+    font-size: 20px;
+}
+.right{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.define{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.search{
+    margin: auto;
+    height: 50px;
+    width: 700px;
+    background: white;
+    border-radius: 10px;
+    display:flex ;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fi-sr-marker{
+    color : red;
+    font-size: 25px;
+}
+.city{
+    height: 100%;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+}
+.city:focus{
+    outline: none;
+}
+.line{
+    font-weight: lighter;
+    color: black;
+}
+
+.fi-bs-search{
+    margin-left: 10px;
+    color: rgb(103, 80, 80);
+    font-size: medium;
+    margin-right: 10px;
+}
+.bar{
+    height: 100%;
+    width: 300px;
+    border: none;
+    font-size: 20px;
+}
+.bar:focus{
+    outline: none;
+
+}
+.card{
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 1px solid rgb(120, 115, 115);
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+.card_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.card img{
+    height:150px;
+    width:100%;
+}
+.card:hover{
+    transform: scale(1.1);
+   
+}
